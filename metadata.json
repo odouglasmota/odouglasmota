@@ -1,0 +1,7 @@
+{
+  "name": "Victor Mota Barber Shop",
+  "description": "Uma experiência de barbearia moderna e conectada. Agende seu horário, escolha seu estilo e curta a vibe do Victor Mota Barber.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
