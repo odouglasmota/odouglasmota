@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Victor Mota Barber Shop - App 💈
 
-This contains everything you need to run your app locally.
+Aplicativo moderno para gestão de barbearia, focado em agilidade, estilo jovem e fidelização de clientes.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1aDSnURmDlUEWflQTnJDBhYIfN0svJErt
+## ✨ Funcionalidades
+- **Agendamento Inteligente**: Fluxo passo a passo para marcar horário.
+- **Painel do Mestre**: Área administrativa protegida por senha para gerenciar preços e agendamentos.
+- **Cartão Fidelidade**: Sistema automático que conta 10 cortes para dar 1 grátis.
+- **Victor Assistant**: Chatbot com IA (Gemini) para dicas de estilo "na régua".
+- **Galeria de Looks**: Vitrine para expor os melhores cortes.
+- **PWA**: Pode ser instalado no celular sem precisar de App Store/Play Store.
 
-## Run Locally
+## 🚀 Como Rodar
+1. Instale as dependências: `npm install`
+2. Configure a variável de ambiente `API_KEY` com sua chave do Google Gemini.
+3. Inicie o projeto: `npm run dev`
 
-**Prerequisites:**  Node.js
+## 🛠️ Tecnologias
+- React + TypeScript
+- Tailwind CSS (Estilização)
+- Lucide React (Ícones)
+- Google Gemini API (IA)
+- Vite (Build rápido)
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+*Desenvolvido para Victor Mota Barber*

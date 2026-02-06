@@ -12,7 +12,7 @@ export interface Service {
   id: string;
   name: ServiceType;
   price: number | 'Sob Consulta';
-  duration: number; // in minutes
+  duration: number;
   description: string;
 }
 
@@ -29,9 +29,9 @@ export interface Appointment {
   id: string;
   customerName: string;
   whatsapp: string;
-  address?: string; // For home service
-  date: string; // ISO string
-  time: string; // HH:mm
+  address?: string;
+  date: string;
+  time: string;
   service: ServiceType;
   price: number | 'Sob Consulta';
   paymentMethod: PaymentMethod;
